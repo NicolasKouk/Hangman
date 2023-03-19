@@ -60,8 +60,14 @@ def draw_hangman(m):
     else:
         print()
 
-def score_calculator(length):
-    return 100 - 15 * length
+def score_calculator(length, pword):
+    if length < 7:
+    	return 100 - 7.5 * length
+    s = 0
+    for c in pword:
+    	if c != '_' and c != ' ':
+    		s += 2.5
+    return s
 
 
 
@@ -111,16 +117,13 @@ while answer == '1':
         findletter()
         if pword == word:
             print('YOU WON')
-            print('Your score was ', score_calculator(len(missedletters)), '/ 100')
+            print('Your score was ', score_calculator(len(missedletters), pword), '/ 100')
             break
         if len(missedletters) >= 7:
             print('YOU LOSE...')
             print('The word was ', word)
-            print('Your score was 0')
+            print('Your score was ', score_calculator(len(missedletters), pword), '/ 100')
             break
     answer = input('Press 1 to play again\n')
     for i in range(50):
         print()
-
-
-
