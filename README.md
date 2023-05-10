@@ -13,3 +13,4 @@ In this particular program, there is a .txt database that supplies the computer 
 The game also supports Greek.
 
 ![sample_picture](assets/hangman_github2.png)
+
