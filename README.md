@@ -11,3 +11,5 @@ This is the classic game of hangman. Player 1 (human or computer) thinks of a wo
 In this particular program, there is a .txt database that supplies the computer with words. Also, the computer is designed to be as human as possible, so sometimes it 'forgets' to reveal the letters of the word that are the same as the first.
 
 The game also supports Greek.
+
+![sample_picture](assets/hangman_github2.png)
