@@ -4,13 +4,13 @@
 
 Στο συγκεκριμένο πρόγραμμα, υπάρχει database σε μορφή .txt αρχείου που προμηθεύει τον υπολογιστή με λέξεις. Επίσης, ο σκοπός είναι ο υπολογιστής να είναι όσο πιο ανθρώπινος γίνεται, οπότε μερικές φορές 'ξεχνάει' να φανερώσει τα γράμματα της λέξης που είναι ίδια με το πρώτο.
 
-Το παιχνίδι υποστηρίζει και ελληνικά.
+Το παιχνίδι υποστηρίζει και ελληνικά (σε παιχνίδια μεταξύ 2 ανθρώπων).
 
 This is the classic game of hangman. Player 1 (human or computer) thinks of a word and player 2 guesses letters to find it. After the 7th unsuccessful guess the game ends and player 2 loses.
 
 In this particular program, there is a .txt database that supplies the computer with words. Also, the computer is designed to be as human as possible, so sometimes it 'forgets' to reveal the letters of the word that are the same as the first.
 
-The game also supports Greek.
+The game also supports Greek (in 2-player mode).
 
 ![sample_image](assets/hangman_github3.png)
 
