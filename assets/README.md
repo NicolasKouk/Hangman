@@ -1,1 +1,1 @@
-The files `proof_1.png` and `proof_2.png` refer to the repository [NASCA23](https://github.com/nkuamath-julia/NASCA23/tree/main/notebooks "NASCA23 repo") and more specifically the notebook `AccurateMathFormula.jl`
+The files `proof_1.png` and `proof_2.png` refer to the repository [NASCA23](https://github.com/nkuamath-julia/NASCA23/tree/main "NASCA23 repo") and more specifically the notebook `AccurateMathFormula.jl`
